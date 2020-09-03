@@ -1,23 +1,31 @@
 n = int(input("Enter the length of the sequence: ")) # Do not change this line
 
-counter=1
-x=0
-y=0
-z=0
-summa=1
-while counter<n:
-    x= counter
-   
+x=1
+y=2
+z=3
 
-    summa=x+y+z
-    print(summa, end=' ')
-    y=
-    x=
-    
+if n == 1:
+    print(1)
+elif n== 2:
+    print(1)
+    print(2)
+elif n==3:
+    print(1)
+    print(2)
+    print(3)
+else:
+    print(1)
+    print(2)
+    print(3)
+    for i in range(3,n):
+        
+        summa=x+y+z
+        x=y
+        y=z
+        z=summa
+        print(summa)
 
 
 
 
-# Okey þetta forrit fer n oft í gegn og í hvert skipti tekur hann seinustu 
-#3 tölur og addar þeim saman
 
